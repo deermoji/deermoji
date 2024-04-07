@@ -29,7 +29,7 @@ struct ARViewContainer: UIViewRepresentable {
         sceneView.scene = scene
 
 
-        if let deerScene = SCNScene(named: "cat.obj") {
+        if let deerScene = SCNScene(named: "cat.scn") {
             let deerNode = deerScene.rootNode.childNode(withName: "cat", recursively: true)
             if let deerNode = deerNode {
                 scene.rootNode.addChildNode(deerNode)
