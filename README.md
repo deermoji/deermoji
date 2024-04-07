@@ -3,7 +3,7 @@ Current version: v3
 ## What Is It
 deermoji is a framework for Xcode 12+ for creating iOS apps with face detecting and following using animals 3D models.
 ## Example - How To Use
-´´´swift
+```swift
 import ARKit
 import SwiftUI
 
@@ -71,4 +71,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-´´´
+```
